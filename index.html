@@ -1,9 +1,10 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TikTok Auto Publisher</title>
+  <title>Auto Publisher</title>
 
   <style>
     * {
@@ -18,30 +19,31 @@
     }
 
     .container {
-      max-width: 600px;
+      max-width: 650px;
       margin: 0 auto;
-      padding: 40px 20px;
+      padding: 70px 20px 40px;
       text-align: center;
     }
 
     h1 {
-      font-size: 42px;
-      margin-bottom: 15px;
+      font-size: 48px;
+      line-height: 1.15;
+      margin: 0 0 25px;
     }
 
-    p {
-      font-size: 18px;
+    .description {
+      font-size: 20px;
       line-height: 1.6;
       color: #444;
+      margin-bottom: 35px;
     }
 
     button {
-      margin-top: 20px;
-      padding: 14px 28px;
-      font-size: 18px;
+      padding: 16px 35px;
+      font-size: 20px;
       font-weight: bold;
       border: none;
-      border-radius: 8px;
+      border-radius: 10px;
       background: #111;
       color: white;
       cursor: pointer;
@@ -53,11 +55,28 @@
 
     #message {
       display: none;
-      margin-top: 25px;
-      padding: 15px;
+      margin-top: 30px;
+      padding: 25px;
       background: white;
-      border-radius: 8px;
       border: 1px solid #ddd;
+      border-radius: 12px;
+    }
+
+    #message h2 {
+      margin-top: 0;
+    }
+
+    .footer {
+      margin-top: 70px;
+      padding-top: 25px;
+      border-top: 1px solid #ddd;
+      font-size: 15px;
+    }
+
+    .footer a {
+      color: #111;
+      text-decoration: underline;
+      margin: 0 10px;
     }
   </style>
 </head>
@@ -66,10 +85,10 @@
 
   <div class="container">
 
-    <h1>TikTok Auto Publisher</h1>
+    <h1>Auto Publisher</h1>
 
-    <p>
-      Prepare and publish your TikTok content
+    <p class="description">
+      Prepare and publish your social media content
       through authorized integrations.
     </p>
 
@@ -78,10 +97,15 @@
     </button>
 
     <div id="message">
-      <strong>Get Started!</strong>
+      <h2>Get Started!</h2>
       <p>
-        Your TikTok publishing setup can begin here.
+        Your publishing setup can begin here.
       </p>
+    </div>
+
+    <div class="footer">
+      <a href="terms.html">Terms of Service</a>
+      <a href="privacy.html">Privacy Policy</a>
     </div>
 
   </div>
@@ -94,3 +118,5 @@
 
 </body>
 </html>
+```
+
